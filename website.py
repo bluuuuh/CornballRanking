@@ -149,7 +149,7 @@ if st.session_state['logged_in']:
 
                                     <!-- This div holds our styled text -->
                                     <div class="title-text-a">
-                                        {top_3.at[0, 'Event']}    {top_3.at[0, 'Value']}/10
+                                        {top_3.at[0, 'Event']}    {round(top_3.at[0, 'Value'], 1)}/10
                                     </div>
 
                                     <!-- This div is our styled rectangle -->
@@ -192,7 +192,7 @@ if st.session_state['logged_in']:
                                     </div>
 
                                     <div class="title-text-b">
-                                        {top_3.at[1, 'Event']}    {top_3.at[1, 'Value']}/10.
+                                        {top_3.at[1, 'Event']}    {round(top_3.at[1, 'Value'], 1)}/10.
                                     </div>
 
                                     <!-- This div is our styled rectangle -->
@@ -234,7 +234,7 @@ if st.session_state['logged_in']:
 
                                         <!-- This div holds our styled text -->
                                         <div class="title-text-c">
-                                            {top_3.at[2, 'Event']}    {top_3.at[2, 'Value']}/10.
+                                            {top_3.at[2, 'Event']}    {round(top_3.at[2, 'Value'], 1)}/10.
                                         </div>
 
                                         <!-- This div is our styled rectangle -->
